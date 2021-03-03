@@ -104,8 +104,8 @@ public class ExcelUtil {
     }
 
     public static void main(String[] args) {
-        String path = "C:\\Users\\Administrator\\Downloads\\t_plm_department.xls";
-        Object[][] datas = ExcelUtil.readExcelLocal(path, "0", "0", "12", "2", "14");
+        String path = "C:\\Users\\Administrator\\Desktop\\事业部.xlsx";
+        Object[][] datas = ExcelUtil.readExcelLocal(path, "0", "1", "12", "2", "6");
         for (Object[] objects : datas) {
             for (Object object : objects) {
                 System.out.print("[" + object.toString() + "]");

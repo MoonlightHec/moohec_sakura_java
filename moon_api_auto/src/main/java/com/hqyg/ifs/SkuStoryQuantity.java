@@ -1,4 +1,4 @@
-package tester.ifs;
+package com.hqyg.ifs;
 
 /**
  * @Author lijun
