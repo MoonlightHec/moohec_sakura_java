@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>moon_api_auto</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
